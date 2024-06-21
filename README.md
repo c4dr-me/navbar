@@ -1,6 +1,6 @@
 # Responsive Router Navbar with Material UI
 
-This project provides a responsive router navbar built with Material UI. It is designed to be mobile-friendly and adapts to different screen sizes.
+This project provides a responsive router navbar built with Material UI. It is designed to be mobile-friendly and adapts to different screen sizes. Below we have the screenshot for mobile view, it works for other viewports as well.
 
 ![Navbar](./images/Navbar.png)
 
@@ -14,15 +14,21 @@ This project provides a responsive router navbar built with Material UI. It is d
 
 1. Clone the repository:
 
-`git clone https://github.com/yourusername/yourproject.git`
+```bash
+git clone https://github.com/yourusername/yourproject.git
+```
 
 2. Install the dependencies:
 
-`npm install`
+```bash
+npm install
+```
 
 3. Start the development server:
 
-`npm run dev`
+```bash
+npm run dev
+```
 
 Visit `http://localhost:5173` in your browser to view the app.
 
@@ -36,7 +42,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
-[MIT](LICENSE)
+[MIT-License](LICENSE)
 
 # React + Vite
 
