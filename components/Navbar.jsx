@@ -3,7 +3,6 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
-import Typography from "@mui/material/Typography";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import Container from "@mui/material/Container";
@@ -13,10 +12,8 @@ import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import { Link, useLocation } from "react-router-dom";
-import { makeStyles } from "@mui/styles";
-import { Rotate90DegreesCcw } from "@mui/icons-material";
 
-
+// Update this array to add or remove pages from the navbar and make sure to add routes in app.jsx
 const pages = [
   { name: "Overview", path: "/" },
   { name: "Tracks", path: "/tracks" },
@@ -43,6 +40,7 @@ function ResponsiveAppBar() {
     setDrawerOpen(false);
   };
 
+  // Change the AppBar styles here
   return (
     <AppBar
       position="static"
@@ -83,6 +81,7 @@ function ResponsiveAppBar() {
                 sx: { width: '250px', mt: { xs: 7, sm: 8 } } // Adjust top margin only for extra small screens
               }}
             >
+              //Apply styles to the drawer/sidebar menu
               <Box
                 sx={{
                   width: 250,
@@ -98,10 +97,10 @@ function ResponsiveAppBar() {
                 <List>
                   {pages.map((page) => (
                     <ListItem
-                      
                       key={page.name}
                       component={Link}
                       to={page.path}
+                      //Apply styles to the list items visible in the navbar in small screens
                       sx={{
                         color: "white",
                         backgroundColor: location.pathname === page.path ? "rgba(255, 255, 255, 0.2)" : "transparent",
@@ -129,6 +128,7 @@ function ResponsiveAppBar() {
                 key={page.name}
                 component={Link}
                 to={page.path}
+                //Apply styles to make changes on navbar buttons on normal screen i.e 1024px..
                 sx={{
                   my: 2,
                   color: "white",
