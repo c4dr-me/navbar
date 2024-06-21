@@ -2,7 +2,7 @@
 
 This project provides a responsive router navbar built with Material UI. It is designed to be mobile-friendly and adapts to different screen sizes.
 
-![Navbar](./images/your_image_name.png)
+![Navbar](./images/Navbar.png)
 
 ## Features
 
