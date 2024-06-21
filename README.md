@@ -14,15 +14,21 @@ This project provides a responsive router navbar built with Material UI. It is d
 
 1. Clone the repository:
 
-`git clone https://github.com/yourusername/yourproject.git`
+```bash
+git clone https://github.com/c4dr-me/responsive-react-navbar-with-mui.git
+```
 
 2. Install the dependencies:
 
-`npm install`
+```bash
+npm install
+```
 
 3. Start the development server:
 
-`npm run dev`
+```bash
+npm run dev
+```
 
 Visit `http://localhost:5173` in your browser to view the app.
 
@@ -36,7 +42,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
-[MIT](LICENSE)
+[License](LICENSE)
 
 # React + Vite
 
