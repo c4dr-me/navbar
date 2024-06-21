@@ -1,3 +1,43 @@
+# Responsive Router Navbar with Material UI
+
+This project provides a responsive router navbar built with Material UI. It is designed to be mobile-friendly and adapts to different screen sizes.
+
+![Navbar](./images/your_image_name.png)
+
+## Features
+
+- Responsive design: The navbar adapts to different screen sizes, providing an optimal user experience on both desktop and mobile devices.
+- Routing: Integrated with React Router for seamless navigation.
+- Material UI: Built with Material UI for a modern, clean aesthetic.
+
+## Installation
+
+1. Clone the repository:
+
+`git clone https://github.com/yourusername/yourproject.git`
+
+2. Install the dependencies:
+
+`npm install`
+
+3. Start the development server:
+
+`npm run dev`
+
+Visit `http://localhost:5173` in your browser to view the app.
+
+## Usage
+
+Click on the different links in the navbar to navigate between pages. On smaller screens, the navbar collapses into a hamburger menu for easier navigation with drawer/sidebar.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT](LICENSE)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

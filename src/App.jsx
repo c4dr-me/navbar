@@ -32,7 +32,6 @@ const App = () => {
           <Route path="/call" element={<Call />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <MainContent />
       </Router>
     </>
   );
